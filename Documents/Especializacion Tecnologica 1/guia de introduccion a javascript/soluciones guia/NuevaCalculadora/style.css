@@ -1,0 +1,43 @@
+body {
+    background: #fff;
+    font-family: Helvetica;
+    font-size: 22px;
+    }
+    #form{
+    margin-top: 100px;
+    text-align: center;
+    }
+    span{
+    display: block;
+    margin-bottom: 20px;
+    }
+    input{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    }
+    button{
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    width: 120px;
+    padding: 10px 30px 10px 30px;
+    font-size: 1em;
+    border-style: none;
+    background: steelblue;
+    color: #fff;
+    cursor: pointer;
+    }
+    .resultado{
+    margin: 20px;
+    text-align: center;
+    }
+    .resultado-error{
+    margin: 20px;
+    color: red;
+    text-align: center;
+    }
+    input:focus::placeholder {
+    color: transparent;
+    }
